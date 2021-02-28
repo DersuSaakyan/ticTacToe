@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="396.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane layoutY="2.0" prefHeight="474.0" prefWidth="547.0">
+            <children>
+                <Button fx:id="label1" alignment="BASELINE_CENTER"  layoutX="14.0" layoutY="14.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label9" alignment="BASELINE_CENTER" layoutX="258.0" layoutY="224.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label8" alignment="BASELINE_CENTER" layoutX="136.0" layoutY="224.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label7" alignment="BASELINE_CENTER" layoutX="14.0" layoutY="224.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label6" alignment="BASELINE_CENTER" layoutX="258.0" layoutY="119.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label5" alignment="BASELINE_CENTER" layoutX="136.0" layoutY="119.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;"  textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label4" alignment="BASELINE_CENTER" layoutX="14.0" layoutY="119.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label3" alignment="BASELINE_CENTER" layoutX="258.0" layoutY="14.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="label2" alignment="BASELINE_CENTER" layoutX="136.0" layoutY="14.0" prefHeight="105.0" prefWidth="122.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 3; -fx-background-color: #c9f4f9; -fx-text-alignment: center; -fx-font-size: 30px; -fx-font-weight: 900;" textAlignment="CENTER">
+                </Button>
+                <Button fx:id="start" layoutX="14.0" layoutY="343.0" mnemonicParsing="false" onAction="#run" prefHeight="35.0" prefWidth="100.0" text="Start">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Label layoutX="14.0" layoutY="393.0" text="X - 0" fx:id="x">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="14.0" layoutY="416.0" text="O - 0" fx:id="y">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
